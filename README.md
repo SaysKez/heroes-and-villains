@@ -1,7 +1,7 @@
 # IXD303 Exercises
 
 ## HTML & Semantics
--	[Heroes & Villains Markup](https://sayskez.github.io/heroes-and-villains/)
+-	[Heroes & Villains Markup](https://sayskez.github.io/heroes-and-villains/index.html)
 
 ## Art Direction: Neon & Newsprint
 -	[Formative Digital Moodboard](http://sayskez.tumblr.com/post/171348841219/lets-face-it-sherlock-holmes-is-a-massive-emo-at)
