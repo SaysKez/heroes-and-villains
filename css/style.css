@@ -1,0 +1,57 @@
+/* 1. CSS RESET */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+body {
+    font-family: "minion-pro",serif;
+    margin: auto;
+    width: 68%;
+}
+
+section {
+    margin: 3.375em auto;
+}
+
+h1 {
+    /*font-family: 'CircularStd Black', helvetica, sans-serif;*/
+    font-family: "nimbus-sans",sans-serif;
+    font-size: 5.063em;
+    margin: 2.25em auto 1em auto;
+}
+
+h2 {
+    font-style: italic;
+    font-size: 2.25em;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 1em;
+}
+
+blockquote {
+    /*font-family: 'CircularStd', helvetica, sans-serif;*/
+    font-family: "nimbus-sans",sans-serif;
+    font-size: 1.5em;
+    font-style: italic;
+    margin: 1.5em auto;
+}
+
+blockquote p {
+    margin-bottom: 0.25em;
+}
+
+blockquote cite {
+    font-size: 60%;
+    line-height: 1.5em;
+    font-style: normal;
+    background-color: #141414;
+    color: #ffce00;
+    padding: 0.1em;
+}
