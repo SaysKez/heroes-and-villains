@@ -84,6 +84,7 @@
     justify-self: baseline;
     border-right: 1px solid #000;
     border-bottom: 1px solid #000;
+    margin-bottom: -1px;
   }
   
   .details {
@@ -110,9 +111,11 @@
   section {
     grid-column: 4/7;
     grid-row: 5/10;
-    padding: 0.25rem;
     border-left: 1px solid #000;
     border-right: 1px solid #000;
+    justify-self: center;
+    width: 96%;
+    padding: 0% 2%;
   }
   section span {
     background-color: #000;
@@ -122,7 +125,7 @@
   blockquote {
     grid-column: 2/4;
     grid-row: 5/6;
-    margin: 0rem 0rem 0rem 0rem;
+    margin: -1px 0rem 0rem 0rem;
     padding-right: 1rem;
     text-align: right;
     border-top: 1px solid #000;
@@ -168,4 +171,66 @@
   .e5 {
     grid-column: 8/9;
   }
+
+  cite {
+    text-align: left;
+    font-style: normal;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  a {
+    color: #000;
+  }
   
+
+/* Responsive */
+
+@media (max-width: 62em) {
+
+  header {
+    grid-column: 3/9;
+    margin-right: -1px;
+  }
+
+  .details {
+    grid-column: 2/3;
+  }
+
+  section, .subheading {
+    grid-column: 2/9;
+  }
+
+  blockquote {
+    grid-row: 10;
+    grid-column: 2/9;
+    margin: 2em 0em;
+  }
+
+  .explanation {
+    display: block;
+    grid-row: 11;
+    margin-top: 0.5em;
+  }  
+
+  .explanation h5 {
+    text-align: left;
+  }
+
+  .e1, .e3, .e5 {
+    grid-column: 2/5;
+  }
+
+  .e2, .e4 {
+    grid-column: 6/9;
+  }
+
+  .e3, .e4 {
+    grid-row: 12;
+  }
+
+  .e5 {
+    grid-row: 13;
+  }
+}
